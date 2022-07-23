@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio - Contato</title>
+    <link rel="stylesheet" href="assents/css/estilo.css">
 </head>
 <body>
     <ul>
@@ -26,8 +27,19 @@
     <h1>Entrar em contato</h1>
     
     <form>
-        <input type="text" name="nome" id="nome" placeholder="Seu nome" required> <br><br>
-        <input type="email" name="email" id="email" placeholder="seuemail@email.com" required><br><br>
+        <div class="input-group">
+            <input required="" type="text" name="text" autocomplete="off" class="input">
+            <label class="user-label">Seu Nome</label>
+        </div>
+
+        <div class="input-group">
+            <input required="" type="email" name="email" autocomplete="off" class="input">
+            <label class="user-label">Seu Email</label>
+        </div>
+
+
+        
+       
         <textarea name="message" rows="10" cols="21" placeholder="Deixe sua mensagem "></textarea><br><br>
         <input type="hidden" name="_next" >
 
